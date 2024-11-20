@@ -65,7 +65,7 @@ jobs:
       uses: actions/cache@v3
       with:
         key: cached-build-${{github.sha}}
-       path: .
+         path: .
 
     # https://github.com/marketplace/actions/maven-dependency-tree-dependency-submission
     - name: Update dependency graph
